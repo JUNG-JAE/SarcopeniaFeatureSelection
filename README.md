@@ -2,10 +2,6 @@
 A study on feature selection methods for a sarcopenia prediction model
 
 ## 1. Project Name & Acknowledgments
-<p align="center">
-    <img width="300" height="160" alt="IHCHS" src="https://github.com/user-attachments/assets/49699cfe-fbb1-499b-b758-2c51c55ef81f" />
-</p>
-
 - **Project Name(KOR)**: 포노 사피엔스 시대의 시니어를 위한 건강관리 [Re:] 솔루션: 근감소 예방과 간리를 위한 헬스웨이 구축
 - **Project Name(ENG)**: Health care [RE:] Solutions for Senior in the Phonosapiens Era : Building a Healthway for preventing and mansging Sarcopenia
 - Multi-agent reinforcement learning–based feature selection
