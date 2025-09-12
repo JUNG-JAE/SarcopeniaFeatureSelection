@@ -8,6 +8,7 @@ A study on feature selection methods for a sarcopenia prediction model
 
 - **Project Name(KOR)**: 포노 사피엔스 시대의 시니어를 위한 건강관리 [Re:] 솔루션: 근감소 예방과 간리를 위한 헬스웨이 구축
 - **Project Name(ENG)**: Health care [RE:] Solutions for Senior in the Phonosapiens Era : Building a Healthway for preventing and mansging Sarcopenia
+- Multi-agent reinforcement learning–based feature selection
 - This project is a collaborative initiative of the **Institute of Human Convergence Health Science (IHCHS)**, involving a partnership between the departments of **Social Science**, **Health Science**, and **Computer Science**.
 - Supported by the [National Research Foundation of Korea](https://www.ntis.go.kr/ThSearchProjectList.do?searchCategory=project&encodingSearchWord=%25ED%258F%25AC%25EB%2585%25B8%2B%25EC%2582%25AC%25ED%2594%25BC%25EC%2597%2594%25EC%258A%25A4%25EC%258B%259C%25EB%258C%2580%25EC%259D%2598%2B%25EC%258B%259C%25EB%258B%2588%25EC%2596%25B4%25EB%25A5%25BC%2B%25EC%259C%2584%25ED%2595%259C%2B%25EA%25B1%25B4%25EA%25B0%2595%25EA%25B4%2580%25EB%25A6%25AC%2B%255BRe%253A%255D%2B%25EC%2586%2594%25EB%25A3%25A8%25EC%2585%2598&oldSearchWord=포노+사피엔스시대의+시니어를+위한+건강관리+[Re%3A]+솔루션&encodingOldSearchWord=%25ED%258F%25AC%25EB%2585%25B8%2B%25EC%2582%25AC%25ED%2594%25BC%25EC%2597%2594%25EC%258A%25A4%25EC%258B%259C%25EB%258C%2580%25EC%259D%2598%2B%25EC%258B%259C%25EB%258B%2588%25EC%2596%25B4%25EB%25A5%25BC%2B%25EC%259C%2584%25ED%2595%259C%2B%25EA%25B1%25B4%25EA%25B0%2595%25EA%25B4%2580%25EB%25A6%25AC%2B%255BRe%253A%255D%2B%25EC%2586%2594%25EB%25A3%25A8%25EC%2585%2598&resultSearchValue=&fileSearchYn=&sort=RANK%2FDESC&ntisYn=&dbt=project&init=&cordisKakenYn=&is01=&originalSearchWord=포노+사피엔스시대의+시니어를+위한+건강관리+[Re%3A]+솔루션&originalSearchGubun=&technologyClassification=&directorySearchYear=&directorySearchOption1=&directorySearchOption2=&directorySearchOption3=&searchWord=2022S1A5C2A07090938) (NRF).
 - **Project Identification Number:** 2022S1A5C2A07090938
@@ -27,7 +28,7 @@ A study on feature selection methods for a sarcopenia prediction model
     <img width="600" height="253" alt="arch" src="https://github.com/user-attachments/assets/57d9626b-2020-4120-9ab0-27291d786ba7" />
 </p>
 
-- This dataset was collected from Korean older adults aged 65 to 90, and feature selection is performed among 44(a subset of the total) features using multi-agent reinforcement learning.
+- This dataset was collected from Korean older adults aged 65 to 90, and feature selection is performed among 44 (a subset of the total) features using multi-agent reinforcement learning.
 - We employed Double DQN (DDQN)
 - State: Regarding the features selected by the agents. We plan to enhance state information by adding statistical measures (mean, std, median, IQR) to the agent-selected features in future datasets.
 - Action: Each feature can either be selected or not selected. To reduce the action space of the agents, we employed a multi-agent approach.
@@ -36,14 +37,19 @@ A study on feature selection methods for a sarcopenia prediction model
 Reward_i=(Acc_t-Acc_{t-1})\times\frac{|credit_i|}{\sum_j|credit_j|}
 ```
 
-## 3. Runs
+---
+
+## 4. Runs
 
     ```
     python3 main.py -- ~~~~
     ```
 
-## 4. Preliminary Results
+---
+
+## 5. Preliminary Results
 All experimental results are reported as k-fold accuracies.
+
 
 ### Binary classification
 [Normal, Sarcopenia]
@@ -61,7 +67,8 @@ Confusion Matrix
     <td align="center"><img src="https://github.com/user-attachments/assets/7d97a42e-0c4d-4600-9636-ae7d9806e67c" alt="FS" width="600"></td>
   </tr>
 </table>
-
+ 
+ 
 ### Multi class classification
 [Normal, Possible, Sarcopenia, Severe]
 
@@ -79,5 +86,7 @@ Confusion Matrix
   </tr>
 </table>
 
-## 5. License and Dataset
+---
+
+## 6. License and Dataset
 - Unfortunately, the dataset cannot be made publicly available.
