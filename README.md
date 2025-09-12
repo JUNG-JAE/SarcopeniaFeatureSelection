@@ -5,6 +5,7 @@ A study on feature selection methods for a sarcopenia prediction model
 <p align="center">
     <img width="300" height="160" alt="IHCHS" src="https://github.com/user-attachments/assets/49699cfe-fbb1-499b-b758-2c51c55ef81f" />
 </p>
+
 - **Project Name(KOR)**: 포노 사피엔스 시대의 시니어를 위한 건강관리 [Re:] 솔루션: 근감소 예방과 간리를 위한 헬스웨이 구축
 - **Project Name(ENG)**: Health care [RE:] Solutions for Senior in the Phonosapiens Era : Building a Healthway for preventing and mansging Sarcopenia
 - This project is a collaborative initiative of the **Institute of Human Convergence Health Science (IHCHS)**, involving a partnership between the departments of **Social Science**, **Health Science**, and **Computer Science**.
@@ -35,10 +36,18 @@ A study on feature selection methods for a sarcopenia prediction model
 Reward_i=(Acc_t-Acc_{t-1})\times\frac{|credit_i|}{\sum_j|credit_j|}
 ```
 
-## 4. Experiment Results
+## 3. Runs
+
+    ```
+    python3 main.py -- ~~~~
+    ```
+
+## 4. Preliminary Results
 All experimental results are reported as k-fold accuracies.
 
 ### Binary classification
+[Normal, Sarcopenia]
+
 | | Without feature selection | Feature selection |
 |---|---|---|
 | Accuracy | 90% | 93% |
@@ -54,6 +63,8 @@ Confusion Matrix
 </table>
 
 ### Multi class classification
+[Normal, Possible, Sarcopenia, Severe]
+
 | | Without feature selection | Feature selection |
 |---|---|---|
 | Accuracy | 76% | 84% |
@@ -67,3 +78,6 @@ Confusion Matrix
     <td align="center"><img src="https://github.com/user-attachments/assets/1b443f56-81dc-4e73-862f-896698880592" alt="FS" width="600"></td>
   </tr>
 </table>
+
+## 5. License and Dataset
+- Unfortunately, the dataset cannot be made publicly available.
