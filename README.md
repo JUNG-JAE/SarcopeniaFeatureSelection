@@ -75,8 +75,8 @@ Confusion Matrix
 Confusion Matrix
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/59fc2457-7c90-425e-a09d-f0d5e7ce09ae" alt="Without FS" width="600"></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/1b443f56-81dc-4e73-862f-896698880592" alt="FS" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/1b443f56-81dc-4e73-862f-896698880592" alt="Without FS" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/59fc2457-7c90-425e-a09d-f0d5e7ce09ae" alt="FS" width="600"></td>
   </tr>
 </table>
 
