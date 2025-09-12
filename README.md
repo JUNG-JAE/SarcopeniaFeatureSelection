@@ -3,7 +3,7 @@ A study on feature selection methods for a sarcopenia prediction model
 
 ## 1. Project Name & Acknowledgments
 <p align="center">
-    <img width="300" height="100" alt="IHCHS" src="https://github.com/user-attachments/assets/49699cfe-fbb1-499b-b758-2c51c55ef81f" />
+    <img width="300" height="150" alt="IHCHS" src="https://github.com/user-attachments/assets/49699cfe-fbb1-499b-b758-2c51c55ef81f" />
 </p>
 
 - **Project Name(KOR)**: 포노 사피엔스 시대의 시니어를 위한 건강관리 [Re:] 솔루션: 근감소 예방과 간리를 위한 헬스웨이 구축
@@ -24,7 +24,7 @@ A study on feature selection methods for a sarcopenia prediction model
 
 ## 3. System
 <p align="center">
-    <img width="600" height="210" alt="arch" src="https://github.com/user-attachments/assets/57d9626b-2020-4120-9ab0-27291d786ba7" />
+    <img width="600" height="253" alt="arch" src="https://github.com/user-attachments/assets/57d9626b-2020-4120-9ab0-27291d786ba7" />
 </p>
 
 - This dataset was collected from Korean older adults aged 65 to 90, and feature selection is performed among 44(a subset of the total) features using multi-agent reinforcement learning.
@@ -32,7 +32,7 @@ A study on feature selection methods for a sarcopenia prediction model
 - State: Regarding the features selected by the agents. We plan to enhance state information by adding statistical measures (mean, std, median, IQR) to the agent-selected features in future datasets.
 - Action: Each feature can either be selected or not selected. To reduce the action space of the agents, we employed a multi-agent approach.
 - Reward: Each agent is given a different reward based on its contribution.
-- ```math
+```math
 Reward_i=(Acc_t-Acc_{t-1})\times\frac{|credit_i|}{\sum_j|credit_j|}
 ```
 
