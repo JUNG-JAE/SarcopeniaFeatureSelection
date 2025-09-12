@@ -3,9 +3,8 @@ A study on feature selection methods for a sarcopenia prediction model
 
 ## 1. Project Name & Acknowledgments
 <p align="center">
-    <img width="300" height="150" alt="IHCHS" src="https://github.com/user-attachments/assets/49699cfe-fbb1-499b-b758-2c51c55ef81f" />
+    <img width="300" height="160" alt="IHCHS" src="https://github.com/user-attachments/assets/49699cfe-fbb1-499b-b758-2c51c55ef81f" />
 </p>
-
 - **Project Name(KOR)**: 포노 사피엔스 시대의 시니어를 위한 건강관리 [Re:] 솔루션: 근감소 예방과 간리를 위한 헬스웨이 구축
 - **Project Name(ENG)**: Health care [RE:] Solutions for Senior in the Phonosapiens Era : Building a Healthway for preventing and mansging Sarcopenia
 - This project is a collaborative initiative of the **Institute of Human Convergence Health Science (IHCHS)**, involving a partnership between the departments of **Social Science**, **Health Science**, and **Computer Science**.
@@ -49,8 +48,8 @@ All experimental results are reported as k-fold accuracies.
 Confusion Matrix
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/4029bf58-094c-4854-91e9-e5f22c3738f2" alt="Without FS" width="400"></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/7d97a42e-0c4d-4600-9636-ae7d9806e67c" alt="FS" width="400"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/4029bf58-094c-4854-91e9-e5f22c3738f2" alt="Without FS" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/7d97a42e-0c4d-4600-9636-ae7d9806e67c" alt="FS" width="600"></td>
   </tr>
 </table>
 
@@ -64,7 +63,7 @@ Confusion Matrix
 Confusion Matrix
 <table>
   <tr>
-    <td align="center"><img src="https://github.com/user-attachments/assets/59fc2457-7c90-425e-a09d-f0d5e7ce09ae" alt="Without FS" width="400"></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/1b443f56-81dc-4e73-862f-896698880592" alt="FS" width="400"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/59fc2457-7c90-425e-a09d-f0d5e7ce09ae" alt="Without FS" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/1b443f56-81dc-4e73-862f-896698880592" alt="FS" width="600"></td>
   </tr>
 </table>
