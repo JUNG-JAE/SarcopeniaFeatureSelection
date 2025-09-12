@@ -57,6 +57,10 @@ All experimental results are reported as k-fold accuracies.
 Confusion Matrix
 <table>
   <tr>
+    <td align="center"><b>Without FS</b></td>
+    <td align="center"><b>FS</b></td>
+  </tr>
+  <tr>
     <td align="center"><img src="https://github.com/user-attachments/assets/4029bf58-094c-4854-91e9-e5f22c3738f2" alt="Without FS" width="600"></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/7d97a42e-0c4d-4600-9636-ae7d9806e67c" alt="FS" width="600"></td>
   </tr>
@@ -74,6 +78,10 @@ Confusion Matrix
 
 Confusion Matrix
 <table>
+  <tr>
+    <td align="center"><b>Without FS</b></td>
+    <td align="center"><b>FS</b></td>
+  </tr>
   <tr>
     <td align="center"><img src="https://github.com/user-attachments/assets/1b443f56-81dc-4e73-862f-896698880592" alt="Without FS" width="600"></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/59fc2457-7c90-425e-a09d-f0d5e7ce09ae" alt="FS" width="600"></td>
