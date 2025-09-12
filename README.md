@@ -6,7 +6,7 @@ A study on feature selection methods for a sarcopenia prediction model
 - **Project Name(ENG)**: Health care [RE:] Solutions for Senior in the Phonosapiens Era : Building a Healthway for preventing and mansging Sarcopenia
 - Multi-agent reinforcement learning–based feature selection
 - This project is a collaborative initiative of the **Institute of Human Convergence Health Science (IHCHS)**, involving a partnership between the departments of **Social Science**, **Health Science**, and **Computer Science**.
-- This project is conducted as part of a research initiative supported by the IHCHS and the National Research Foundation of Korea (NRF, Project No. 2022S1A5C2A07090938).
+- This project is conducted as part of a research initiative supported by the IHCHS and the [National Research Foundation of Korea](https://www.ntis.go.kr/ThSearchTotalList.do?sort=&ntisYn=&searchWord=2022S1A5C2A07090938&originalSearchWord=&originalSearchGubun=) (NRF, Project No. 2022S1A5C2A07090938).
 ---
 
 ## 2. Background
