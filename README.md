@@ -35,13 +35,11 @@ Reward_i=(Acc_t-Acc_{t-1})\times\frac{|credit_i|}{\sum_j|credit_j|}
 
 ## 4. Runs
 
-    ```
-    
+
     pip install -r requirements.txt
     # Unfortunately, we are unable to provide access to the sarcopenia dataset
-    python3 main.py --episodes 5000 --batch_size 64 --dataset "breast_cancer" --cat_iterations 100
-    
-    ```
+    python3 main.py --episodes 5000 --batch_size 64 --dataset "breast_cancer" --cat_iterations 100    
+
 
 ---
 
