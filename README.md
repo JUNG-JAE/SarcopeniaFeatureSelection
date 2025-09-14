@@ -36,7 +36,8 @@ Reward_i=(Acc_t-Acc_{t-1})\times\frac{|credit_i|}{\sum_j|credit_j|}
 ## 4. Runs
 
     ```
-    python3 main.py -- ~~~~
+    pip install -r requirements.txt
+    python3 main.py --episodes 5000 --batch_size 64 --dataset "breast_cancer" --cat_iterations 100
     ```
 
 ---
