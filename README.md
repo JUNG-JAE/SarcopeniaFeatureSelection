@@ -56,7 +56,7 @@ All experimental results are reported as k-fold accuracies.
 | F1 score | 84% | 88% |
 | The num of features | 44 | 25 |
 
-Confusion Matrix
+**Confusion Matrix**
 <table>
   <tr>
     <td align="center"><b>Without FS</b></td>
@@ -68,7 +68,7 @@ Confusion Matrix
   </tr>
 </table>
 
-Q-value
+**Q-value**
 <table>
   <tr>
     <td align="center"><img src="https://github.com/user-attachments/assets/2ad687dc-17c7-45b7-8267-fd94b8f234fb" alt="agent0" width="600"></td>
@@ -80,8 +80,17 @@ Q-value
   </tr>
 </table>
 
-
-Loss
+**Loss**
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/6a770e37-4132-4a1d-86ba-99e0b3224191" alt="agent0" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/1a0a3237-ce97-4e86-9ab8-30a8f0dc73ab" alt="agent1" width="600"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/474deb52-8192-4eb4-a8e2-0d1115c787fb" alt="agent2" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/1f1723da-b381-4814-9a65-14929bd89193" alt="agent3" width="600"></td>
+  </tr>
+</table>
  
 ### Multi class classification
 [Normal, Possible, Sarcopenia, Severe]
@@ -92,7 +101,7 @@ Loss
 | F1 score | 71% | 79% |
 | The num of features | 44 | 18 |
 
-Confusion Matrix
+**Confusion Matrix**
 <table>
   <tr>
     <td align="center"><b>Without FS</b></td>
@@ -104,6 +113,29 @@ Confusion Matrix
   </tr>
 </table>
 
+**Q-value**
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/2fed439f-14ec-47f7-bbe5-e99a2f7a047d" alt="agent0" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/bf83c593-5ce7-4287-819a-125ef32493af" alt="agent1" width="600"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/412e5156-a070-41bd-b7e6-94e16676fd81" alt="agent2" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/dab4992b-189a-4035-a80c-6a201f3d72fb" alt="agent3" width="600"></td>
+  </tr>
+</table>
+
+**Loss**
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/346ba065-5bb4-4826-83e9-e556f602054e" alt="agent0" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/8816a690-ce7c-4a40-b6c4-674ce1861775" alt="agent1" width="600"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/0612ae5b-4b5f-498a-8f8b-68d7aa8126af" alt="agent2" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/c8fb8c53-8947-4af2-ad69-4389efba277b" alt="agent3" width="600"></td>
+  </tr>
+</table>
 ---
 
 ## 6. License and Dataset
