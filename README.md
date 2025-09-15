@@ -67,7 +67,19 @@ Confusion Matrix
     <td align="center"><img src="https://github.com/user-attachments/assets/7d97a42e-0c4d-4600-9636-ae7d9806e67c" alt="FS" width="600"></td>
   </tr>
 </table>
- 
+
+Q-value
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/2ad687dc-17c7-45b7-8267-fd94b8f234fb" alt="agent0" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/e67f4632-7686-459c-b26e-704f30094936" alt="agent1" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/6643f25c-cd3d-44ff-a7eb-ecf73267c0f4" alt="agent2" width="600"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/fdebe8e2-e963-4230-ae23-82510e2173ca" alt="agent3" width="600"></td>
+  </tr>
+</table>
+
+
+Loss
  
 ### Multi class classification
 [Normal, Possible, Sarcopenia, Severe]
