@@ -136,6 +136,7 @@ All experimental results are reported as k-fold accuracies.
     <td align="center"><img src="https://github.com/user-attachments/assets/c8fb8c53-8947-4af2-ad69-4389efba277b" alt="agent3" width="600"></td>
   </tr>
 </table>
+
 ---
 
 ## 6. License and Dataset
