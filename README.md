@@ -19,7 +19,7 @@ A study on feature selection methods for a sarcopenia prediction model
 
 ## 3. System
 <p align="center">
-    <img width="600" height="253" alt="arch" src="https://github.com/user-attachments/assets/57d9626b-2020-4120-9ab0-27291d786ba7" />
+    <img width="700" height="295" alt="arch" src="https://github.com/user-attachments/assets/db292065-a24a-4fac-ba15-1fe02abd5895" />
 </p>
 
 - This dataset was collected from Korean older adults aged 65 to 90, and feature selection is performed among 44 (a subset of the total) features using MARL.
