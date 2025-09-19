@@ -1,5 +1,5 @@
 # SarcopeniaFeatureSelection
-A study on feature selection methods for a sarcopenia prediction model
+A research on feature selection methods for a sarcopenia prediction model
 
 ## 1. Project Name & Acknowledgments
 - **Project Name(KOR)**: 포노 사피엔스 시대의 시니어를 위한 건강관리 [Re:] 솔루션: 근감소 예방과 간리를 위한 헬스웨이 구축
